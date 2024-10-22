@@ -11,8 +11,8 @@
 
     <p>Місце народження: 28 грудня 2004 року, м. Рівне</p>
 
-    <p>Освіта: Обласний науковий ліцей, м. Рівне</p>
-    <p>&emsp;&emsp;&emsp;НТУУ "КПІ", м. Київ</p>
+    <p id="third", onclick="changeFirstTextAndBackgroundColor()">Освіта: Обласний науковий ліцей, м. Рівне</p>
+    <p id="selector", onclick="changeSecondTextAndBackgroundColor()">&emsp;&emsp;&emsp;НТУУ "КПІ", м. Київ</p>
 
     <p>Хобі:</p>
     <ul>
@@ -31,7 +31,15 @@
     <p>Львів — місто в Україні, адміністративний центр області, агломерації, району, міської громади, національно-культурний та освітньо-науковий осередок країни, великий промисловий центр і транспортний вузол, вважається столицею Галичини та центром Західної України. За кількістю населення — п'яте місто країни.</p>
     <p>Це місто має багату історію, немовірно красиву архітектуру і особливу атмосферу спокою та завороження. Відвідання Львову це обов'язково відчуття духу старовинної Європи, прогулянки вузькими вуличками, і насолодження різноманітною автентичною кухнею.</p>
 
-    <a href="https://lviv.travel" target="_blank"><img src="images/lviv.jpg" alt="Фото Львова" width="600" height="400"></a>
+    <div id="image-container">
+        <a href="https://lviv.travel" target="_blank"><img src="images/lviv.jpg" alt="Фото Львова"></a>
+    </div>
+
+    <button id="addBtn">Додати</button>
+    <button id="increaseBtn">Збільшити</button>
+    <button id="decreaseBtn">Зменшити</button>
+    <button id="removeBtn">Видалити</button>
+    <br>
 
     <script src="js/script.js"></script>
 </body>
